@@ -21,110 +21,20 @@ wheels/
 *.egg
 MANIFEST
 
-# PyInstaller
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
-
-# Translations
-*.mo
-*.pot
-
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
-
-# Flask stuff:
-instance/
-.webassets-cache
-
-# Scrapy stuff:
-.scrapy
-
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-target/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# pyenv
-.python-version
-
-# celery beat schedule file
-celerybeat-schedule
-
-# SageMath parsed files
-*.sage.py
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# OS
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
 # Build artifacts
 build/
 dist/
 *.exe
+*.spec
+*.bat
+*.sh
+
+# Documentation (keep only README.md)
+WINDOWS_BUILD_GUIDE.md
+*.md
+!README.md
 
 # Large files (>100MB)
-# Note: Git has a default limit of 100MB for individual files
-# Files larger than this should be stored in Git LFS or excluded
-
-# Common large file types
 *.zip
 *.tar.gz
 *.tar.bz2
@@ -142,7 +52,7 @@ dist/
 *.tmp
 *.temp
 
-# Video files
+# Media files
 *.mp4
 *.avi
 *.mov
@@ -150,15 +60,11 @@ dist/
 *.flv
 *.mkv
 *.webm
-
-# Audio files
 *.mp3
 *.wav
 *.flac
 *.aac
 *.ogg
-
-# Image files (large)
 *.psd
 *.ai
 *.raw
@@ -177,3 +83,19 @@ dist/
 *.vdi
 *.vhd
 *.vhdx
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
