@@ -119,3 +119,61 @@ Thumbs.db
 build/
 dist/
 *.exe
+
+# Large files (>100MB)
+# Note: Git has a default limit of 100MB for individual files
+# Files larger than this should be stored in Git LFS or excluded
+
+# Common large file types
+*.zip
+*.tar.gz
+*.tar.bz2
+*.rar
+*.7z
+*.iso
+*.dmg
+*.img
+*.bin
+*.dump
+*.sql
+*.backup
+*.bak
+*.log
+*.tmp
+*.temp
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.mkv
+*.webm
+
+# Audio files
+*.mp3
+*.wav
+*.flac
+*.aac
+*.ogg
+
+# Image files (large)
+*.psd
+*.ai
+*.raw
+*.tiff
+*.tif
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.mdb
+*.accdb
+
+# Virtual machine files
+*.vmdk
+*.vdi
+*.vhd
+*.vhdx
